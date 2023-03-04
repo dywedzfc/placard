@@ -1,0 +1,61 @@
+{
+  "code": {
+    "baseCode": [
+      { "type": "html", "data": "<t-grid-layout class=\"my-grid\">" },
+      { "type": "html", "data": "  <t-panel class=\"my-grid-item\"></t-panel>" },
+      { "type": "html", "data": "  <t-panel class=\"my-grid-item\"></t-panel>" },
+      { "type": "html", "data": "  <t-panel class=\"my-grid-item\"></t-panel>" },
+      { "type": "html", "data": "  <t-panel class=\"my-grid-item\"></t-panel>" },
+      { "type": "html", "data": "</t-grid-layout>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<style lang=\"scss\" scoped>" },
+      { "type": "css", "data": ".my-grid {" },
+      { "type": "css", "data": "  height: 400px;" },
+      { "type": "css", "data": "" },
+      { "type": "css", "data": "  &-item {" },
+      { "type": "css", "data": "    display: inline-block;" },
+      { "type": "css", "data": "    background-color: #e9eef3;" },
+      { "type": "css", "data": "" },
+      { "type": "css", "data": "    &:nth-child(2n) {" },
+      { "type": "css", "data": "      background-color: #d3dce6;" },
+      { "type": "css", "data": "    }" },
+      { "type": "css", "data": "    /* 一次类推... */" },
+      { "type": "css", "data": "  }" },
+      { "type": "css", "data": "}" },
+      { "type": "html", "data": "</style>" }
+    ],
+    "marginCode": [
+      { "type": "html", "data": "<t-grid-layout class=\"my-grid\"  margin=\"10\">" },
+      { "type": "html", "data": "  <t-panel class=\"my-grid-item\"></t-panel>" },
+      { "type": "html", "data": "  <t-panel class=\"my-grid-item\"></t-panel>" },
+      { "type": "html", "data": "  <t-panel class=\"my-grid-item\"></t-panel>" },
+      { "type": "html", "data": "  <t-panel class=\"my-grid-item\"></t-panel>" },
+      { "type": "html", "data": "</t-grid-layout>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<style lang=\"scss\" scoped>" },
+      { "type": "css", "data": ".my-grid {" },
+      { "type": "css", "data": "  height: 400px;" },
+      { "type": "css", "data": "" },
+      { "type": "css", "data": "  &-item {" },
+      { "type": "css", "data": "    display: inline-block;" },
+      { "type": "css", "data": "    background-color: #e9eef3;" },
+      { "type": "css", "data": "" },
+      { "type": "css", "data": "    &:nth-child(2n) {" },
+      { "type": "css", "data": "      background-color: #d3dce6;" },
+      { "type": "css", "data": "    }" },
+      { "type": "css", "data": "    /* 一次类推... */" },
+      { "type": "css", "data": "  }" },
+      { "type": "css", "data": "}" },
+      { "type": "html", "data": "</style>" }
+    ]
+  },
+  "attributes": [
+    {
+      "parameter": "margin",
+      "directions": "间距",
+      "type": "Number / String",
+      "optional": "—",
+      "default": "0"
+    }
+  ]
+}

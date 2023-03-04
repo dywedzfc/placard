@@ -1,0 +1,238 @@
+{
+  "system": [
+    { "id": "index", "title": "首页", "type": "router", "path": "/" },
+    { "id": "t-ui", "title": "T-UI", "type": "router", "path": "/t-ui" },
+    { "id": "element-ui", "title": "Element UI", "type": "router", "path": "/element-ui" }
+  ],
+  "menu": [
+    { "details": "T-UI 菜单" },
+    { "id": "t-devGuide", "title": "开发指南", "type": "title", "pid": "t-ui" },
+    {
+      "id": "t-installation",
+      "title": "安装",
+      "type": "router",
+      "path": "/t-ui/installation",
+      "pid": "t-ui",
+      "NE": true
+    },
+    { "id": "t-component", "title": "组件", "type": "title", "pid": "t-ui" },
+    { "id": "t-basic", "title": "basic", "type": "group", "pid": "t-ui" },
+    { "id": "t-layout", "title": "边界布局", "type": "router", "path": "/t-ui/layout", "pid": "t-ui" },
+    { "id": "t-container", "title": "布局容器", "type": "router", "path": "/t-ui/container", "pid": "t-ui" },
+    { "id": "t-gridLayout", "title": "网格布局", "type": "router", "path": "/t-ui/gridLayout", "pid": "t-ui" },
+    { "id": "t-pane", "title": "pane", "type": "group", "pid": "t-ui" },
+    { "id": "t-queryBar", "title": "查询框", "type": "router", "path": "/t-ui/queryBar", "pid": "t-ui" },
+    { "id": "t-queryPanel", "title": "查询面板", "type": "router", "path": "/t-ui/queryPanel", "pid": "t-ui" },
+    { "id": "t-dragPicture", "title": "图片拖拽控件", "type": "router", "path": "/t-ui/dragPicture", "pid": "t-ui" },
+    { "id": "t-data", "title": "data", "type": "group", "pid": "t-ui" },
+    { "id": "t-tablePage", "title": "分页表格", "type": "router", "path": "/t-ui/tablePage", "pid": "t-ui" },
+    { "id": "t-others", "title": "others", "type": "group", "pid": "t-ui" },
+    { "id": "t-dialog", "title": "对话框", "type": "router", "path": "/t-ui/dialog", "pid": "t-ui" },
+
+    { "details": "Element-UI 菜单" },
+    { "id": "e-devGuide", "title": "开发指南", "type": "title", "pid": "element-ui" },
+    {
+      "id": "e-installation",
+      "title": "安装",
+      "type": "router",
+      "path": "/element-ui/installation",
+      "pid": "element-ui",
+      "NE": true
+    },
+    {
+      "id": "e-getStartedQuickly",
+      "title": "快速上手",
+      "type": "router",
+      "path": "/element-ui/getStartedQuickly",
+      "pid": "element-ui",
+      "NE": true
+    },
+    {
+      "id": "e-internationalization",
+      "title": "国际化",
+      "type": "router",
+      "path": "/element-ui/internationalization",
+      "pid": "element-ui",
+      "NE": true
+    },
+    {
+      "id": "e-customTheme",
+      "title": "自定义主题",
+      "type": "router",
+      "path": "/element-ui/customTheme",
+      "pid": "element-ui",
+      "NE": true
+    },
+    {
+      "id": "e-builtInTransitionAnimation",
+      "title": "内置过渡动画",
+      "type": "router",
+      "path": "/element-ui/builtInTransitionAnimation",
+      "pid": "element-ui",
+      "NE": true
+    },
+    { "id": "e-component", "title": "组件", "type": "title", "pid": "element-ui" },
+    { "id": "e-basic", "title": "basic", "type": "group", "pid": "element-ui" },
+    { "id": "e-layout", "title": "布局", "type": "router", "path": "/element-ui/layout", "pid": "element-ui" },
+    {
+      "id": "e-container",
+      "title": "布局容器",
+      "type": "router",
+      "path": "/element-ui/container",
+      "pid": "element-ui"
+    },
+    { "id": "e-color", "title": "色彩", "type": "router", "path": "/element-ui/color", "pid": "element-ui" },
+    { "id": "e-typography", "title": "字体", "type": "router", "path": "/element-ui/typography", "pid": "element-ui" },
+    { "id": "e-border", "title": "边框", "type": "router", "path": "/element-ui/border", "pid": "element-ui" },
+    { "id": "e-icon", "title": "图标", "type": "router", "path": "/element-ui/icon", "pid": "element-ui" },
+    { "id": "e-button", "title": "按钮", "type": "router", "path": "/element-ui/button", "pid": "element-ui" },
+    { "id": "e-link", "title": "文字链接", "type": "router", "path": "/element-ui/link", "pid": "element-ui" },
+
+    { "id": "t-form", "title": "Form", "type": "group", "pid": "element-ui" },
+    { "id": "e-radio", "title": "单选框", "type": "router", "path": "/element-ui/radio", "pid": "element-ui" },
+    { "id": "e-checkbox", "title": "多选框", "type": "router", "path": "/element-ui/checkbox", "pid": "element-ui" },
+    { "id": "e-input", "title": "输入框", "type": "router", "path": "/element-ui/input", "pid": "element-ui" },
+    {
+      "id": "e-input-number",
+      "title": "计数器",
+      "type": "router",
+      "path": "/element-ui/input-number",
+      "pid": "element-ui"
+    },
+    { "id": "e-select", "title": "选择器", "type": "router", "path": "/element-ui/select", "pid": "element-ui" },
+    {
+      "id": "e-cascader",
+      "title": "级联选择器",
+      "type": "router",
+      "path": "/element-ui/cascader",
+      "pid": "element-ui"
+    },
+    { "id": "e-switch", "title": "开关", "type": "router", "path": "/element-ui/switch", "pid": "element-ui" },
+    { "id": "e-slider", "title": "滑块", "type": "router", "path": "/element-ui/slider", "pid": "element-ui" },
+    {
+      "id": "e-time-picker",
+      "title": "时间选择器",
+      "type": "router",
+      "path": "/element-ui/time-picker",
+      "pid": "element-ui"
+    },
+    {
+      "id": "e-date-picker",
+      "title": "日期选择器",
+      "type": "router",
+      "path": "/element-ui/date-picker",
+      "pid": "element-ui"
+    },
+    {
+      "id": "e-date-time-picker",
+      "title": "日期时间选择器",
+      "type": "router",
+      "path": "/element-ui/date-time-picker",
+      "pid": "element-ui"
+    },
+    { "id": "e-upload", "title": "上传", "type": "router", "path": "/element-ui/upload", "pid": "element-ui" },
+    { "id": "e-rate", "title": "评分", "type": "router", "path": "/element-ui/rate", "pid": "element-ui" },
+    {
+      "id": "e-color-picker",
+      "title": "颜色选择器",
+      "type": "router",
+      "path": "/element-ui/color-picker",
+      "pid": "element-ui"
+    },
+    { "id": "e-transfer", "title": "穿梭框", "type": "router", "path": "/element-ui/transfer", "pid": "element-ui" },
+    { "id": "e-form", "title": "表单", "type": "router", "path": "/element-ui/form", "pid": "element-ui" },
+
+    { "id": "e-data", "title": "data", "type": "group", "pid": "element-ui" },
+    { "id": "e-table", "title": "表格", "type": "router", "path": "/element-ui/table", "pid": "element-ui" },
+    { "id": "e-tag", "title": "标签", "type": "router", "path": "/element-ui/tag", "pid": "element-ui" },
+    { "id": "e-progress", "title": "进度条", "type": "router", "path": "/element-ui/progress", "pid": "element-ui" },
+    { "id": "e-tree", "title": "树形控件", "type": "router", "path": "/element-ui/tree", "pid": "element-ui" },
+    { "id": "e-pagination", "title": "分页", "type": "router", "path": "/element-ui/pagination", "pid": "element-ui" },
+    { "id": "e-badge", "title": "标记", "type": "router", "path": "/element-ui/badge", "pid": "element-ui" },
+    { "id": "e-avatar", "title": "头像", "type": "router", "path": "/element-ui/avatar", "pid": "element-ui" },
+    { "id": "e-skeleton", "title": "骨架屏", "type": "router", "path": "/element-ui/skeleton", "pid": "element-ui" },
+    { "id": "e-empty", "title": "空状态", "type": "router", "path": "/element-ui/empty", "pid": "element-ui" },
+    {
+      "id": "e-descriptions",
+      "title": "描述列表",
+      "type": "router",
+      "path": "/element-ui/descriptions",
+      "pid": "element-ui"
+    },
+    { "id": "e-result", "title": "结果", "type": "router", "path": "/element-ui/result", "pid": "element-ui" },
+    {
+      "id": "e-statistic",
+      "title": "统计数值",
+      "type": "router",
+      "path": "/element-ui/statistic",
+      "pid": "element-ui"
+    },
+
+    { "id": "e-notice", "title": "Notice", "type": "group", "pid": "element-ui" },
+    { "id": "e-alert", "title": "警告", "type": "router", "path": "/element-ui/alert", "pid": "element-ui" },
+    { "id": "e-loading", "title": "加载", "type": "router", "path": "/element-ui/loading", "pid": "element-ui" },
+    { "id": "e-message", "title": "消息提示", "type": "router", "path": "/element-ui/message", "pid": "element-ui" },
+    {
+      "id": "e-message-box",
+      "title": "弹框",
+      "type": "router",
+      "path": "/element-ui/message-box",
+      "pid": "element-ui"
+    },
+    {
+      "id": "e-notification",
+      "title": "通知",
+      "type": "router",
+      "path": "/element-ui/notification",
+      "pid": "element-ui"
+    },
+
+    { "id": "e-navigation", "title": "Navigation", "type": "group", "pid": "element-ui" },
+    { "id": "e-nav-menu", "title": "导航菜单", "type": "router", "path": "/element-ui/nav-menu", "pid": "element-ui" },
+    { "id": "e-tabs", "title": "标签页", "type": "router", "path": "/element-ui/tabs", "pid": "element-ui" },
+    {
+      "id": "e-breadcrumb",
+      "title": "面包屑",
+      "type": "router",
+      "path": "/element-ui/breadcrumb",
+      "pid": "element-ui"
+    },
+    {
+      "id": "e-page-header",
+      "title": "页头",
+      "type": "router",
+      "path": "/element-ui/page-header",
+      "pid": "element-ui"
+    },
+    { "id": "e-dropdown", "title": "下拉菜单", "type": "router", "path": "/element-ui/dropdown", "pid": "element-ui" },
+    { "id": "e-steps", "title": "步骤条", "type": "router", "path": "/element-ui/steps", "pid": "element-ui" },
+
+    { "id": "e-others", "title": "Others", "type": "group", "pid": "element-ui" },
+    { "id": "e-dialog", "title": "对话框", "type": "router", "path": "/element-ui/dialog", "pid": "element-ui" },
+    { "id": "e-tooltip", "title": "文字提示", "type": "router", "path": "/element-ui/tooltip", "pid": "element-ui" },
+    { "id": "e-popover", "title": "弹出框", "type": "router", "path": "/element-ui/popover", "pid": "element-ui" },
+    {
+      "id": "e-popconfirm",
+      "title": "气泡确认框",
+      "type": "router",
+      "path": "/element-ui/popconfirm",
+      "pid": "element-ui"
+    },
+    { "id": "e-card", "title": "卡片", "type": "router", "path": "/element-ui/card", "pid": "element-ui" },
+    { "id": "e-carousel", "title": "走马灯", "type": "router", "path": "/element-ui/carousel", "pid": "element-ui" },
+    { "id": "e-collapse", "title": "折叠面板", "type": "router", "path": "/element-ui/collapse", "pid": "element-ui" },
+    { "id": "e-timeline", "title": "时间线", "type": "router", "path": "/element-ui/timeline", "pid": "element-ui" },
+    { "id": "e-divider", "title": "分割线", "type": "router", "path": "/element-ui/divider", "pid": "element-ui" },
+    { "id": "e-calendar", "title": "日历", "type": "router", "path": "/element-ui/calendar", "pid": "element-ui" },
+    { "id": "e-image", "title": "图片", "type": "router", "path": "/element-ui/image", "pid": "element-ui" },
+    { "id": "e-backtop", "title": "回到顶部", "type": "router", "path": "/element-ui/backtop", "pid": "element-ui" },
+    {
+      "id": "e-infinite-scroll",
+      "title": "无限滚动",
+      "type": "router",
+      "path": "/element-ui/infinite-scroll",
+      "pid": "element-ui"
+    },
+    { "id": "e-drawer", "title": "抽屉", "type": "router", "path": "/element-ui/drawer", "pid": "element-ui" }
+  ]
+}

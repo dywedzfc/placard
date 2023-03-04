@@ -1,0 +1,367 @@
+{
+  "code": {
+    "baseCode": [
+      { "type": "html", "data": "<t-query-bar class=\"my-query-bar\">" },
+      { "type": "html", "data": "  <el-form-item label=\"姓名\">" },
+      { "type": "html", "data": "    <el-input />" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "  <el-form-item>" },
+      { "type": "html", "data": "    <el-button type=\"primary\">查询</el-button>" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "</t-query-bar>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<style lang=\"scss\" scoped>" },
+      { "type": "css", "data": ".my-query-bar {" },
+      { "type": "css", "data": "  margin-bottom: 20px;" },
+      { "type": "css", "data": "}" },
+      { "type": "html", "data": "</style>" }
+    ],
+    "borderCode": [
+      { "type": "html", "data": "<t-query-bar class=\"my-query-bar\" border radius>" },
+      { "type": "html", "data": "  <el-form-item label=\"姓名\">" },
+      { "type": "html", "data": "    <el-input />" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "  <el-form-item>" },
+      { "type": "html", "data": "    <el-button type=\"primary\">查询</el-button>" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "</t-query-bar>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<style lang=\"scss\" scoped>" },
+      { "type": "css", "data": ".my-query-bar {" },
+      { "type": "css", "data": "  margin-bottom: 20px;" },
+      { "type": "css", "data": "}" },
+      { "type": "html", "data": "</style>" }
+    ],
+    "shadowCode": [
+      {
+        "type": "html",
+        "data": "<t-query-bar class=\"my-query-bar\" border radius level=\"1\" size=\"medium\">"
+      },
+      { "type": "html", "data": "  <el-form-item label=\"姓名\">" },
+      { "type": "html", "data": "    <el-input />" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "  <el-form-item>" },
+      { "type": "html", "data": "    <el-button type=\"primary\">查询</el-button>" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "</t-query-bar>" },
+      { "type": "html", "data": "" },
+      {
+        "type": "html",
+        "data": "<t-query-bar class=\"my-query-bar\" border radius level=\"2\">"
+      },
+      { "type": "html", "data": "  <el-form-item label=\"姓名\">" },
+      { "type": "html", "data": "    <el-input />" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "  <el-form-item>" },
+      { "type": "html", "data": "    <el-button type=\"primary\">查询</el-button>" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "</t-query-bar>" },
+      { "type": "html", "data": "" },
+      {
+        "type": "html",
+        "data": "<t-query-bar class=\"my-query-bar\" border radius level=\"3\" size=\"mini\">"
+      },
+      { "type": "html", "data": "  <el-form-item label=\"姓名\">" },
+      { "type": "html", "data": "    <el-input />" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "  <el-form-item>" },
+      { "type": "html", "data": "    <el-button type=\"primary\">查询</el-button>" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "</t-query-bar>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<style lang=\"scss\" scoped>" },
+      { "type": "css", "data": ".my-query-bar {" },
+      { "type": "css", "data": "  margin-bottom: 20px;" },
+      { "type": "css", "data": "}" },
+      { "type": "html", "data": "</style>" }
+    ],
+    "loginCode": [
+      {
+        "type": "html",
+        "data": "<t-query-bar class=\"my-query-bar\" type=\"login\" border radius level=\"1\">"
+      },
+      { "type": "html", "data": "  <el-form-item label=\"姓名\">" },
+      { "type": "html", "data": "    <el-input />" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "  <el-form-item>" },
+      { "type": "html", "data": "    <el-button type=\"primary\">查询</el-button>" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "</t-query-bar>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<style lang=\"scss\" scoped>" },
+      { "type": "css", "data": ".my-query-bar {" },
+      { "type": "css", "data": "  margin-bottom: 20px;" },
+      { "type": "css", "data": "}" },
+      { "type": "css", "data": ".my-login {" },
+      { "type": "css", "data": "  width: 300px;" },
+      { "type": "css", "data": "}" },
+      { "type": "html", "data": "</style>" }
+    ],
+    "formCode": [
+      { "type": "html", "data": "<t-query-bar class=\"my-query-bar my-form\" type=\"form\" ref=\"form\">" },
+      { "type": "html", "data": "  <el-form-item label=\"姓名\">" },
+      { "type": "html", "data": "    <el-input />" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "  <el-form-item label=\"性别\">" },
+      { "type": "html", "data": "    <el-input />" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "  <el-form-item>" },
+      { "type": "html", "data": "    <el-button type=\"primary\">取消</el-button>" },
+      { "type": "html", "data": "    <el-button type=\"primary\">提交</el-button>" },
+      { "type": "html", "data": "  </el-form-item>" },
+      { "type": "html", "data": "</t-query-bar>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<style lang=\"scss\" scoped>" },
+      { "type": "css", "data": ".my-query-bar {" },
+      { "type": "css", "data": "  margin-bottom: 20px;" },
+      { "type": "css", "data": "}" },
+      { "type": "css", "data": ".my-form {" },
+      { "type": "css", "data": "  width: 400px;" },
+      { "type": "css", "data": "}" },
+      { "type": "html", "data": "</style>" }
+    ]
+  },
+  "attributes": [
+    {
+      "parameter": "type",
+      "directions": "行内表单模式",
+      "type": "String",
+      "optional": "search / login / form",
+      "default": "search",
+      "keyPoint": true
+    },
+    {
+      "parameter": "model",
+      "directions": "表单数据对象",
+      "type": "Object",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "rules",
+      "directions": "表单验证规则",
+      "type": "Object",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "column",
+      "directions": "一行 Form Item 的数量",
+      "type": "Number",
+      "optional": "—",
+      "default": "—",
+      "keyPoint": true
+    },
+    {
+      "parameter": "label-position",
+      "directions": "表单域标签的位置，如果值为 left 或者 right 时，则需要设置 label-width。",
+      "type": "String",
+      "optional": "right / left / top",
+      "default": "right"
+    },
+    {
+      "parameter": "label-width",
+      "directions": "用于控制 \"el-form-item label\" 的宽度。支持 auto。",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "label-suffix",
+      "directions": "用于控制 \"el-form-item label\" 的后缀",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "hide-required-asterisk",
+      "directions": "是否隐藏必填字段的标签旁边的红色星号",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "show-message",
+      "directions": "是否显示校验错误信息",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "status-icon",
+      "directions": "是否在输入框中显示校验结果反馈图标",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "validate-on-rule-change",
+      "directions": "是否在 rules 属性改变后立即触发一次验证",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "level",
+      "directions": "阴影级别",
+      "type": "Object",
+      "optional": "1 / 2 / 3",
+      "default": "—",
+      "keyPoint": true
+    },
+    {
+      "parameter": "border",
+      "directions": "边框线",
+      "type": "Object",
+      "optional": "—",
+      "default": "false",
+      "keyPoint": true
+    },
+    {
+      "parameter": "radius",
+      "directions": "圆角",
+      "type": "Object",
+      "optional": "—",
+      "default": "false",
+      "keyPoint": true
+    },
+    {
+      "parameter": "size",
+      "directions": "用于控制该表单内组件的尺寸。如果type是 \"login\" 或 \"form\" 默认值 medium，type是 \"search\" 默认值 small。",
+      "type": "String",
+      "optional": "medium / small / mini",
+      "default": "—"
+    },
+    {
+      "parameter": "disabled",
+      "directions": "是否禁用该表单内的所有组件。若设置为 true，则表单内组件上的 disabled 属性不再生效。",
+      "type": "Boolean",
+      "optional": "-",
+      "default": "false"
+    }
+  ],
+  "methods": [
+    {
+      "name": "validate",
+      "directions": "对整个表单进行校验的方法，参数为一个回调函数。该回调函数会在校验结束后被调用，并传入两个参数：是否校验成功和未通过校验的字段。若不传入回调函数，则会返回一个 promise",
+      "parameter": "Function(callback: Function(boolean, object))"
+    },
+    {
+      "name": "validateField",
+      "directions": "对部分表单字段进行校验的方法",
+      "parameter": "Function(props: array | string, callback: Function(errorMessage: string))"
+    },
+    {
+      "name": "resetFields",
+      "directions": "对整个表单进行重置，将所有字段值重置为初始值并移除校验结果",
+      "parameter": "—"
+    },
+    {
+      "name": "clearValidate",
+      "directions": "移除表单项的校验结果。传入待移除的表单项的 prop 属性或者 prop 组成的数组，如不传则移除整个表单的校验结果",
+      "parameter": "Function(props: array | string)"
+    }
+  ],
+  "events": [
+    {
+      "name": "validate",
+      "directions": "任一表单项被校验后触发",
+      "parameter": "被校验的表单项 prop 值，校验是否通过，错误消息（如果存在）"
+    }
+  ],
+  "formItemAttributes": [
+    {
+      "parameter": "span",
+      "directions": "列的数量",
+      "type": "Number",
+      "optional": "-",
+      "default": "—",
+      "keyPoint": true
+    },
+    {
+      "parameter": "prop",
+      "directions": "表单域 model 字段，在使用 validate、resetFields 方法的情况下，该属性是必填的",
+      "type": "String",
+      "optional": "传入 Form 组件的 model 中的字段",
+      "default": "—"
+    },
+    {
+      "parameter": "label",
+      "directions": "标签文本",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "label-width",
+      "directions": "表单域标签的的宽度，例如 '50px'。支持 auto。",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "required",
+      "directions": "是否必填，如不设置，则会根据校验规则自动生成",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "rules",
+      "directions": "表单验证规则",
+      "type": "Object",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "error",
+      "directions": "表单域验证错误信息, 设置该值会使表单验证状态变为error，并显示该错误信息",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "show-message",
+      "directions": "是否显示校验错误信息",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "inline-message",
+      "directions": "以行内形式展示校验信息。在 query-bar 属性 type 是 \"form\" 时不推荐使用",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "size",
+      "directions": "用于控制该表单域下组件的尺寸",
+      "type": "String",
+      "optional": "medium / small / mini",
+      "default": "—"
+    }
+  ],
+  "formItemSlots": [
+    { "name": "—", "directions": "Form Item 的内容" },
+    { "name": "label", "directions": "标签文本的内容" }
+  ],
+  "formItemScopedSlots": [
+    {
+      "name": "error",
+      "directions": "自定义表单校验信息的显示方式，参数为 { error }"
+    }
+  ],
+  "formItemMethods": [
+    {
+      "name": "resetField",
+      "directions": "对该表单项进行重置，将其值重置为初始值并移除校验结果",
+      "parameter": "—"
+    },
+    {
+      "name": "clearValidate",
+      "directions": "移除该表单项的校验结果",
+      "parameter": "—"
+    }
+  ]
+}

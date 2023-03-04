@@ -1,0 +1,353 @@
+{
+  "code": {
+    "baseCode": [
+      {
+        "type": "html",
+        "data": "<el-button type=\"primary\" @click=\"handleShowDialogClick\">按钮</el-button>"
+      },
+      { "type": "html", "data": "" },
+      {
+        "type": "html",
+        "data": "<t-dialog :visible.sync=\"dialog.display\" :title=\"dialog.title\" :width=\"dialog.width\">"
+      },
+      { "type": "html", "data": "  <div class=\"body\">我是对话框</div>" },
+      { "type": "html", "data": "  <template #footer>" },
+      {
+        "type": "html",
+        "data": "    <el-button @click=\"handleDialogCancelClick\">取 消</el-button>"
+      },
+      {
+        "type": "html",
+        "data": "    <el-button type=\"primary\" @click=\"handleDialogSubmitClick\">确 定</el-button>"
+      },
+      { "type": "html", "data": "  </template>" },
+      { "type": "html", "data": "</t-dialog>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<script>" },
+      { "type": "js", "data": "export default {" },
+      { "type": "js", "data": "  name: 'TDialog'," },
+      { "type": "js", "data": "  data() {" },
+      { "type": "js", "data": "    return {" },
+      {
+        "type": "js",
+        "data": "      dialog: { display: false, title: '提示', width: '30%' }"
+      },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "  }," },
+      { "type": "js", "data": "  methods: {" },
+      { "type": "js", "data": "    handleShowDialogClick() {" },
+      { "type": "js", "data": "      this.dialog.display = true" },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "    handleDialogCancelClick() {" },
+      { "type": "js", "data": "      this.dialog.display = false" },
+      { "type": "js", "data": "    }," },
+      { "type": "js", "data": "    handleDialogSubmitClick() {" },
+      { "type": "js", "data": "      this.dialog.display = false" },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "  }" },
+      { "type": "js", "data": "}" },
+      { "type": "html", "data": "</script>" }
+    ],
+    "maxOMinCode": [
+      {
+        "type": "html",
+        "data": "<el-button type=\"primary\" @click=\"handleShowDialogClick\">按钮</el-button>"
+      },
+      { "type": "html", "data": "" },
+      {
+        "type": "html",
+        "data": "<t-dialog :visible.sync=\"dialog.display\" :title=\"dialog.title\" :width=\"dialog.width\" tool>"
+      },
+      { "type": "html", "data": "  <div class=\"body\">我是对话框</div>" },
+      { "type": "html", "data": "  <template #footer>" },
+      {
+        "type": "html",
+        "data": "    <el-button @click=\"handleDialogCancelClick\">取 消</el-button>"
+      },
+      {
+        "type": "html",
+        "data": "    <el-button type=\"primary\" @click=\"handleDialogSubmitClick\">确 定</el-button>"
+      },
+      { "type": "html", "data": "  </template>" },
+      { "type": "html", "data": "</t-dialog>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<script>" },
+      { "type": "js", "data": "export default {" },
+      { "type": "js", "data": "  name: 'TDialog'," },
+      { "type": "js", "data": "  data() {" },
+      { "type": "js", "data": "    return {" },
+      {
+        "type": "js",
+        "data": "      dialog: { display: false, title: '提示', width: '30%' }"
+      },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "  }," },
+      { "type": "js", "data": "  methods: {" },
+      { "type": "js", "data": "    handleShowDialogClick() {" },
+      { "type": "js", "data": "      this.dialog.display = true" },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "    handleDialogCancelClick() {" },
+      { "type": "js", "data": "      this.dialog.display = false" },
+      { "type": "js", "data": "    }," },
+      { "type": "js", "data": "    handleDialogSubmitClick() {" },
+      { "type": "js", "data": "      this.dialog.display = false" },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "  }" },
+      { "type": "js", "data": "}" },
+      { "type": "html", "data": "</script>" }
+    ],
+    "radiusCode": [
+      {
+        "type": "html",
+        "data": "<el-button type=\"primary\" @click=\"handleShowDialogClick\">按钮</el-button>"
+      },
+      { "type": "html", "data": "" },
+      {
+        "type": "html",
+        "data": "<t-dialog :visible.sync=\"dialog.display\" :title=\"dialog.title\" :width=\"dialog.width\" radius=\"20px\">"
+      },
+      { "type": "html", "data": "  <div class=\"body\">我是对话框</div>" },
+      { "type": "html", "data": "  <template #footer>" },
+      {
+        "type": "html",
+        "data": "    <el-button @click=\"handleDialogCancelClick\">取 消</el-button>"
+      },
+      {
+        "type": "html",
+        "data": "    <el-button type=\"primary\" @click=\"handleDialogSubmitClick\">确 定</el-button>"
+      },
+      { "type": "html", "data": "  </template>" },
+      { "type": "html", "data": "</t-dialog>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<script>" },
+      { "type": "js", "data": "export default {" },
+      { "type": "js", "data": "  name: 'TDialog'," },
+      { "type": "js", "data": "  data() {" },
+      { "type": "js", "data": "    return {" },
+      {
+        "type": "js",
+        "data": "      dialog: { display: false, title: '提示', width: '30%' }"
+      },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "  }," },
+      { "type": "js", "data": "  methods: {" },
+      { "type": "js", "data": "    handleShowDialogClick() {" },
+      { "type": "js", "data": "      this.dialog.display = true" },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "    handleDialogCancelClick() {" },
+      { "type": "js", "data": "      this.dialog.display = false" },
+      { "type": "js", "data": "    }," },
+      { "type": "js", "data": "    handleDialogSubmitClick() {" },
+      { "type": "js", "data": "      this.dialog.display = false" },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "  }" },
+      { "type": "js", "data": "}" },
+      { "type": "html", "data": "</script>" }
+    ],
+    "moveDisableCode": [
+      {
+        "type": "html",
+        "data": "<el-button type=\"primary\" @click=\"handleShowDialogClick\">按钮</el-button>"
+      },
+      { "type": "html", "data": "" },
+      {
+        "type": "html",
+        "data": "<t-dialog :visible.sync=\"dialog.display\" :title=\"dialog.title\" :width=\"dialog.width\" :move=\"false\">"
+      },
+      { "type": "html", "data": "  <div class=\"body\" display>我是对话框</div>" },
+      { "type": "html", "data": "  <template #footer>" },
+      {
+        "type": "html",
+        "data": "    <el-button @click=\"handleDialogCancelClick\">取 消</el-button>"
+      },
+      {
+        "type": "html",
+        "data": "    <el-button type=\"primary\" @click=\"handleDialogSubmitClick\">确 定</el-button>"
+      },
+      { "type": "html", "data": "  </template>" },
+      { "type": "html", "data": "</t-dialog>" },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<script>" },
+      { "type": "js", "data": "export default {" },
+      { "type": "js", "data": "  name: 'TDialog'," },
+      { "type": "js", "data": "  data() {" },
+      { "type": "js", "data": "    return {" },
+      {
+        "type": "js",
+        "data": "      dialog: { display: false, title: '提示', width: '30%' }"
+      },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "  }," },
+      { "type": "js", "data": "  methods: {" },
+      { "type": "js", "data": "    handleShowDialogClick() {" },
+      { "type": "js", "data": "      this.dialog.display = true" },
+      { "type": "js", "data": "    }," },
+      { "type": "js", "data": "    handleDialogCancelClick() {" },
+      { "type": "js", "data": "      this.dialog.display = false" },
+      { "type": "js", "data": "    }," },
+      { "type": "js", "data": "    handleDialogSubmitClick() {" },
+      { "type": "js", "data": "      this.dialog.display = false" },
+      { "type": "js", "data": "    }" },
+      { "type": "js", "data": "  }" },
+      { "type": "js", "data": "}" },
+      { "type": "html", "data": "</script>" }
+    ]
+  },
+  "attributes": [
+    {
+      "parameter": "visible",
+      "directions": "是否显示 Dialog，支持 .sync 修饰符",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "title",
+      "directions": "Dialog 的标题，也可通过具名 slot （见下表）传入",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "width",
+      "directions": "Dialog 的宽度",
+      "type": "String",
+      "optional": "—",
+      "default": "50%"
+    },
+    {
+      "parameter": "tool",
+      "directions": "关闭时销毁 Dialog 中的元素",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "fullscreen",
+      "directions": "是否为全屏 Dialog，支持 .sync 修饰符",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "minscreen",
+      "directions": "是否为最小化 Dialog，支持 .sync 修饰符",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "minimize-title",
+      "directions": "最小化列表中显示的标题",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "minimize-id",
+      "directions": "最小化 Dialog 标识",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "radius",
+      "directions": "Dialog CSS 中的 border-radius 值",
+      "type": "String",
+      "optional": "—",
+      "default": "4px"
+    },
+    {
+      "parameter": "move",
+      "directions": "是否可以拖拽",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "modal",
+      "directions": "是否需要遮罩层",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "modal-append-to-body",
+      "directions": "遮罩层是否插入至 body 元素上，若为 false，则遮罩层会插入至 Dialog 的父元素上",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "lock-scroll",
+      "directions": "是否在 Dialog 出现时将 body 滚动锁定",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "custom-class",
+      "directions": "Dialog 的自定义类名",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "close-on-click-modal",
+      "directions": "是否可以通过点击 modal 关闭 Dialog",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "close-on-press-escape",
+      "directions": "是否可以通过按下 ESC 关闭 Dialog",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "show-close",
+      "directions": "是否显示关闭按钮",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "true"
+    },
+    {
+      "parameter": "before-close",
+      "directions": "关闭前的回调，会暂停 Dialog 的关闭",
+      "type": "Function(done)，done 用于关闭 Dialog",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "center",
+      "directions": "是否对头部和底部采用居中布局",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "destroy-on-close",
+      "directions": "关闭时销毁 Dialog 中的元素",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    }
+  ],
+  "slots": [
+    { "name": "—", "directions": "Dialog 的内容" },
+    { "name": "title", "directions": "Dialog 标题区的内容" },
+    { "name": "footer", "directions": "Dialog 按钮操作区的内容" }
+  ],
+  "events": [
+    { "name": "open", "directions": "Dialog 打开的回调", "parameter": "—" },
+    { "name": "opened", "directions": "Dialog 打开动画结束时的回调", "parameter": "—" },
+    { "name": "before-minimize", "directions": "Dialog 最小化的回调", "parameter": "—" },
+    { "name": "minimized", "directions": "Dialog 最小化结束时的回调", "parameter": "—" },
+    { "name": "before-maximize", "directions": "Dialog 最大化的回调", "parameter": "—" },
+    { "name": "maximized", "directions": "Dialog 最大化结束时的回调", "parameter": "—" },
+    { "name": "close", "directions": "Dialog 关闭的回调", "parameter": "—" },
+    { "name": "closed", "directions": "Dialog 关闭动画结束时的回调", "parameter": "—" }
+  ]
+}

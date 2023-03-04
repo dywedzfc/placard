@@ -1,0 +1,50 @@
+{
+  "code": {
+    "baseCode": [
+      {
+        "type": "html",
+        "data": "<t-drag-picture border :src=\"picture.src\"></t-drag-picture>"
+      },
+      { "type": "html", "data": "" },
+      { "type": "html", "data": "<script>" },
+      { "type": "html", "data": "export default {" },
+      { "type": "html", "data": "  data() {" },
+      { "type": "html", "data": "    return {" },
+      { "type": "html", "data": "      picture: { src: '...' }" },
+      { "type": "html", "data": "    }" },
+      { "type": "html", "data": "  }" },
+      { "type": "html", "data": "}" },
+      { "type": "html", "data": "</script>" }
+    ]
+  },
+  "attributes": [
+    {
+      "parameter": "border",
+      "directions": "是否显示边框线",
+      "type": "Boolean",
+      "optional": "—",
+      "default": "false"
+    },
+    {
+      "parameter": "src",
+      "directions": "图片路径",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "notice-src",
+      "directions": "缩略图路径",
+      "type": "String",
+      "optional": "—",
+      "default": "—"
+    },
+    {
+      "parameter": "notice-position",
+      "directions": "缩略图位置",
+      "type": "String",
+      "optional": "top-left / top-right / bottom-left / bottom-right",
+      "default": "bottom-right"
+    }
+  ]
+}
